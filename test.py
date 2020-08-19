@@ -23,7 +23,7 @@ parser.add_argument('--train', dest='train',  default=0 ,type=int, help='0 for t
 parser.add_argument('--print_frequency', dest='print_frequency',  default=10,type=int, help='print loss every # of iteration')
 parser.add_argument('--WGAN', dest='WGAN',  default=False,type=bool, help='use WGAN-GP or not')
 parser.add_argument('--batch_size', dest='batch_size',  default=1, type=int, help='batch size')
-parser.add_argument('--test_dir', dest='test_dir',  default='C:/Users/giles/Downloads/CVPR_NVS/chairs/chair_test' , help='testing data dir')
+parser.add_argument('--test_dir', dest='test_dir',  default='./chairs/chair_test' , help='testing data dir')
 parser.add_argument('--checkpoint', dest='checkpoint',  default='./chair_68000.pth' , help='checkpoint path')
 args = parser.parse_args()
     
